@@ -32,7 +32,7 @@ public class MyString {
 
     /** If str1 contains str2, returns true; otherwise returns false. */
     public static boolean contains(String str1, String str2) {
-        if (str2.length() == 0) return false;
+        if (str2.length() == 0) return true;
         if (str2.length() > str1.length()) return false;
         
         for (int i = 0; i <= str1.length() - str2.length(); i++) {
